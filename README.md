@@ -1,4 +1,4 @@
-# Thinkmoto Task2 - Pretty Side
+# TM Task2 - Pretty
 
 To get this running please:
 - download code to your local machine
