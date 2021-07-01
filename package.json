@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21",
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "core-js": "^3.9.1",
+    "filepond": "^4.28.2",
+    "filepond-plugin-image-filter": "^1.0.1",
+    "filepond-plugin-image-preview": "^4.6.6",
+    "live-server": "^1.2.0",
+    "regenerator-runtime": "^0.13.7",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.3"
+  }
+}

@@ -1,0 +1,48 @@
+/* Fonts */
+/* @font-face {
+  font-family: "BrandonGrotesqueWeb-Medium"; src:
+  url("//db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.eot"); src:
+  url("//db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/5b15925f730447e503cfd467c0c91c3f.svg#BrandonGrotesqueWeb-Medium") format("svg");
+}
+
+@font-face {
+  font-family: "Omnes";
+  src: url("/fonts/Omnes.woff2") format("woff2"),
+       url("/fonts/Omnes.woff") format("woff");
+} */
+
+
+
+#carousel {
+padding-top: 30px;
+}
+
+.splide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.is-active {
+  border: none!important;
+}
+
+/*  arrows  */
+/* .splide__arrows {
+} */
+
+.splide__arrow--prev {
+  background-color: transparent;
+  border: none;
+}
+
+.splide__arrow--prev svg path{
+  color: lightcoral;
+}
+
+/*  responsiveness  */

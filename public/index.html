@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Filter Carousel</title>
+
+  <!-- splide -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="styles/styles-splide.css">
+  <link rel="stylesheet" href="styles/splide.min.css">
+
+  <!-- filepond -->
+  <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+  <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet">
+
+  <!-- common css -->
+  <link rel="stylesheet" href='styles/styles.css' />
+</head>
+
+<body>
+  <!-- <h1>Filter Carousel</h1> -->
+  <div id="carousel" class="splide hidden">
+    <div class="splide__track">
+      <div class="splide__list">
+      </div>
+    </div>
+  </div>
+  <div id="uploadArea" class='m-250'>
+    <!-- THEORY: -->
+    <!--
+        Click "uplaod" button, so image will be uploaded:
+        1. Multiple effect run over image (3 times)
+        2. Images get added to carousel
+        3. at any point, images get pushed to a database? Is this necessary to download the image?
+        4. Hide Upload-Button
+      -->
+  </div>
+  <div id="downloadArea" class='hidden m-80'>
+    <!--
+        5. Show new button "Download"
+        6. Show second button "new image" to restart the loop
+      -->
+    <button id='download'>Download Image</button>
+    <!-- <a href=""> -->
+    <button id='restart' class='custom'>Add new Image</button>
+    <!-- </a> -->
+  </div>
+
+  <div id="hidden-div"></div>
+
+
+  <script src="/scripts/bundle.js"></script>
+</body>
+
+</html>
